@@ -1,0 +1,61 @@
+extends layout
+
+block content
+	section#home.home
+	div#headerwrap
+		div.container
+			div.logo
+				img(src="/images/logo.png")
+			br
+			div.row
+				h1 IYIHUA PERSONAL WEBSITE
+			br
+			h3 Hello, I'm Yihua Wanglv. I love coding.
+			br
+			br
+			div.col-lg-8.col-lg-offset-2
+
+	section#about.about
+	div#f
+		div.container
+			div.row
+				h3 ABOUT ME
+				br
+				div.col-lg-8.col-lg-offset-2
+					p A full time java/javascript programmer based in GuangZhou, China. I am committed to building elegant, high-coupled, high-availability distributed web applications and mobile applications.
+					p My passion is turning good ideas and products into applications.
+					p Sometimes I blog about design and programming. Also I share links and my thoughts on 
+						a(href='https://github.com/YihuaWanglv' target='_blank') github
+						span  or 
+						a(href='http://yihuawanglv.github.io' target='_blank') github.io
+						span .
+
+	section#portfolio.portfolio
+	div#f
+		div.container
+			div.row
+				h3 SOME PROJECTS
+				br
+				div.col-lg-8.col-lg-offset-2
+					h4 
+						a(href='https://github.com/YihuaWanglv/microservices' target='_blank') microservice
+					p micoservices: a micoservice framework technology stack, using spring boot, nodejs express, zookeeper, docker, gitlab and jenkins
+					br
+					h4
+						a(href='https://github.com/YihuaWanglv/github-trending' target='_blank') github-trending
+					p github-trending is a java application, will run a daily task, read github-trending page, save to the md file group by date. And finally push commit to the github repository.
+					br
+					h4
+						a(href='https://github.com/YihuaWanglv/itimes' target='_blank') itimes
+					p A webapp project based on the concept of Ljubichev's management method, with technology of spring boot, spring data jpa, jdbc and angular1.3.
+
+	section#contact.contact
+	div#f
+		div.container
+			div.row
+				h3 CONTACT ME
+				br
+				div.col-lg-8.col-lg-offset-2
+					p Guangzhou Avenue North, Guangzhou, China
+					p +86 13560427799
+					p wanglvyihua@gmail.com
