@@ -8,8 +8,7 @@ block content
 				img(src="/images/logo.png")
 			br
 			div.row
-				h1 IYIHUA
-			h2 王吕伊华的个人网站
+				h1 IYIHUA PERSONAL WEBSITE
 			br
 			h3 Hello, I'm Yihua Wanglv. I love coding.
 			br
